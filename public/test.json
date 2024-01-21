@@ -1,0 +1,135 @@
+[
+  {
+    "image": "https://i.ibb.co/NynxNhG/pexels-designecologist-1046639.jpg",
+    "floorNo": 1,
+    "blockName": "Sunset View",
+    "apartmentNo": "101",
+    "rent": 1200
+  },
+  {
+    "image": "https://i.ibb.co/ZXqR10L/pexels-pixabay-271614.jpg",
+    "floorNo": 2,
+    "blockName": "Mountain Peak",
+    "apartmentNo": "202",
+    "rent": 1300
+  },
+  {
+    "image": "https://i.ibb.co/s6M7cCM/pexels-homelane-com-1776574.jpg",
+    "floorNo": 1,
+    "blockName": "Riverside Retreat",
+    "apartmentNo": "103",
+    "rent": 1100
+  },
+  {
+    "image": "https://i.ibb.co/3NwYS6m/pexels-vecislavas-popa-1743227.jpg",
+    "floorNo": 3,
+    "blockName": "Urban Oasis",
+    "apartmentNo": "304",
+    "rent": 1500
+  },
+  {
+    "image": "https://i.ibb.co/Pm3c53r/pexels-pixabay-271816.jpg",
+    "floorNo": 2,
+    "blockName": "Serenity Heights",
+    "apartmentNo": "205",
+    "rent": 1250
+  },
+  {
+    "image": "https://i.ibb.co/xHDNrmZ/pexels-pixabay-259962-1.jpg",
+    "floorNo": 1,
+    "blockName": "Central Hub",
+    "apartmentNo": "106",
+    "rent": 1100
+  },
+  {
+    "image": "https://i.ibb.co/LR05vs9/pexels-medhat-ayad-439227.jpg",
+    "floorNo": 4,
+    "blockName": "Tranquil Gardens",
+    "apartmentNo": "407",
+    "rent": 1700
+  },
+  {
+    "image": "https://i.ibb.co/HPGqbPb/pexels-pixabay-259962.jpg",
+    "floorNo": 3,
+    "blockName": "Cityscape Residences",
+    "apartmentNo": "308",
+    "rent": 1400
+  },
+  {
+    "image": "https://i.ibb.co/TmHN8CM/pexels-john-tekeridis-1428348.jpg",
+    "floorNo": 2,
+    "blockName": "Elevated Living",
+    "apartmentNo": "209",
+    "rent": 1300
+  },
+  {
+    "image": "https://i.ibb.co/4PxY2MT/pexels-naim-benjelloun-2029694.jpg",
+    "floorNo": 1,
+    "blockName": "Harbor View",
+    "apartmentNo": "110",
+    "rent": 1200
+  },
+  {
+    "image": "https://i.ibb.co/KWpLd3w/pexels-pixabay-279719.jpg",
+    "floorNo": 5,
+    "blockName": "Skyline Residences",
+    "apartmentNo": "511",
+    "rent": 2000
+  },
+  {
+    "image": "https://i.ibb.co/yNQ4zJT/pexels-pixabay-269262.jpg",
+    "floorNo": 2,
+    "blockName": "Metropolitan Suites",
+    "apartmentNo": "212",
+    "rent": 1350
+  },
+  {
+    "image": "https://i.ibb.co/KsX1qpw/pexels-pixabay-272802.jpg",
+    "floorNo": 1,
+    "blockName": "Garden Haven",
+    "apartmentNo": "113",
+    "rent": 1100
+  },
+  {
+    "image": "https://i.ibb.co/9hSgMh3/pexels-scott-webb-140982.jpg",
+    "floorNo": 3,
+    "blockName": "Penthouse Paradise",
+    "apartmentNo": "314",
+    "rent": 1600
+  },
+  {
+    "image": "https://i.ibb.co/qNr5ytp/pexels-vecislavas-popa-813685.jpg",
+    "floorNo": 2,
+    "blockName": "Horizon Heights",
+    "apartmentNo": "215",
+    "rent": 1400
+  },
+  {
+    "image": "https://i.ibb.co/Q6qMxTy/pexels-vecislavas-popa-813682.jpg",
+    "floorNo": 1,
+    "blockName": "Urban Nest",
+    "apartmentNo": "116",
+    "rent": 1200
+  },
+  {
+    "image": "https://i.ibb.co/zr2k6Rv/pexels-vecislavas-popa-813688.jpg",
+    "floorNo": 4,
+    "blockName": "Sky High Residences",
+    "apartmentNo": "417",
+    "rent": 1800
+  },
+  {
+    "image": "https://i.ibb.co/8NYVT9t/pexels-vecislavas-popa-813687.jpg",
+    "floorNo": 3,
+    "blockName": "Epicenter Estates",
+    "apartmentNo": "318",
+    "rent": 1500
+  },
+  {
+    "image": "https://i.ibb.co/8NYVT9t/pexels-vecislavas-popa-813687.jpg",
+    "floorNo": 2,
+    "blockName": "Highland Homes",
+    "apartmentNo": "219",
+    "rent": 1350
+  }
+]

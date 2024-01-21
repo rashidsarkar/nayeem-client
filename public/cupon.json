@@ -1,0 +1,32 @@
+[
+  {
+    "couponCode": "FIRST10",
+    "discountPercentage": 10,
+    "description": "Get 10% off on your first room rental!"
+  },
+  {
+    "couponCode": "ROOM20OFF",
+    "discountPercentage": 20,
+    "description": "Enjoy a 20% discount on any room rental."
+  },
+  {
+    "couponCode": "STUDENT15",
+    "discountPercentage": 15,
+    "description": "Exclusive 15% discount for students renting a room."
+  },
+  {
+    "couponCode": "MONTHLY25",
+    "discountPercentage": 25,
+    "description": "Save 25% on monthly room rentals."
+  },
+  {
+    "couponCode": "FAMILY20",
+    "discountPercentage": 20,
+    "description": "Family special - 20% off on room rentals."
+  },
+  {
+    "couponCode": "RETURN5",
+    "discountPercentage": 5,
+    "description": "Welcome back! Enjoy a 5% discount on your return room rental."
+  }
+]
