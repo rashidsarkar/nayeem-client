@@ -7,6 +7,7 @@ import ErrorMessage from "../../../../Components/ErrorMessage/ErrorMessage";
 import { useNavigate } from "react-router-dom";
 
 const RentPaymentPage = () => {
+  const currentYear = new Date().getFullYear();
   const navigate = useNavigate();
   const [selectedMonth, setSelectedMonth] = useState(null);
   const { memberRentData, error, isError, isLoading } = useMemberRentAPI();
@@ -42,9 +43,9 @@ const RentPaymentPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded shadow-md w-full md:w-1/2 lg:w-1/3">
-        <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="w-full p-8 bg-white rounded shadow-md md:w-1/2 lg:w-1/3">
+        <h2 className="mb-4 text-2xl font-bold text-center text-gray-800">
           Rent Payment
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -57,7 +58,7 @@ const RentPaymentPage = () => {
               type="text"
               value={rentData.agreementReqEmail}
               readOnly
-              className="form-input rounded-md w-full bg-gray-100"
+              className="w-full bg-gray-100 rounded-md form-input"
             />
           </div>
 
@@ -71,7 +72,7 @@ const RentPaymentPage = () => {
                 type="text"
                 value={rentData.floorNo}
                 readOnly
-                className="form-input rounded-md w-full bg-gray-100"
+                className="w-full bg-gray-100 rounded-md form-input"
               />
             </div>
 
@@ -84,7 +85,7 @@ const RentPaymentPage = () => {
                 type="text"
                 value={rentData.apartmentNo}
                 readOnly
-                className="form-input rounded-md w-full bg-gray-100"
+                className="w-full bg-gray-100 rounded-md form-input"
               />
             </div>
           </div>
@@ -98,7 +99,7 @@ const RentPaymentPage = () => {
               type="text"
               value={rentData.blockName}
               readOnly
-              className="form-input rounded-md w-full bg-gray-100"
+              className="w-full bg-gray-100 rounded-md form-input"
             />
           </div>
 
@@ -111,7 +112,7 @@ const RentPaymentPage = () => {
               type="text"
               value={rentData.rent}
               readOnly
-              className="form-input rounded-md w-full bg-gray-100"
+              className="w-full bg-gray-100 rounded-md form-input"
             />
           </div>
 
@@ -120,13 +121,25 @@ const RentPaymentPage = () => {
             <label className="block text-sm font-medium text-gray-600">
               Select Month
             </label>
+            {/* <DatePicker
+              selected={selectedMonth}
+              onChange={(date) => setSelectedMonth(date)}
+              dateFormat="MMMM"
+              showMonthYearPicker
+              className="w-full bg-gray-100 rounded-md form-input"
+              required
+            /> */}
             <DatePicker
               selected={selectedMonth}
               onChange={(date) => setSelectedMonth(date)}
               dateFormat="MMMM"
               showMonthYearPicker
-              className="form-input rounded-md w-full bg-gray-100"
+              className="w-full bg-gray-100 rounded-md form-input"
               required
+              minDate={new Date(currentYear, 0, 1)} // Set minDate to the beginning of the current year
+              maxDate={new Date(currentYear + 1, 11, 31)} // Set maxDate to the end of next year
+              yearDropdownItemNumber={2} // Show only 2 years in the dropdown
+              scrollableYearDropdown // Make the year dropdown scrollable
             />
           </div>
 
@@ -134,7 +147,7 @@ const RentPaymentPage = () => {
           <div>
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+              className="w-full p-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
             >
               Pay
             </button>
